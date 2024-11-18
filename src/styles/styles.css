@@ -1,0 +1,26 @@
+@import './global.css';
+
+body {
+    background-color: var(--bg-primary);
+}
+
+header {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+}
